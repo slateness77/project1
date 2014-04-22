@@ -1,20 +1,33 @@
+body {
+	background-image: url("img/yoshisisland.gif");
+	background-repeat: no-repeat;
+	background-size: 1500px 800px;
+	
+
+}
+
+
 .cells {
 	width: 150px;
 	height: 150px;
-	background-color: black;
+	background-color: white;
 	border: 2px solid red;
 	float: left;
 	color: white;
+	background-image: url("img/flower.gif");
+	background-repeat: no-repeat;
+	background-size: 140px;
 
 }
 
 .container {
 	width: 462;
 	margin: 0 auto;
+	
 }
 
 .bgblue {
-	background-color: blue;
+	background-color: pink;
 }
 
 .xBackground {
@@ -23,4 +36,19 @@
 
 .yBackground {
 	background-color: yellow;
+
 }
+
+.cellx {
+	background-image: url("img/X.jpeg");
+}
+
+.cello {
+	background-image: url("img/O.png");
+}
+
+
+
+
+
+
