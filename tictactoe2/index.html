@@ -1,0 +1,23 @@
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css"
+
+
+	<title></title>
+</head>
+
+<body x-ng-app="" x-ng-controller="TictactoeController">
+	<div class="container">
+		<div x-ng-class="{cells: true, bgblue: $even}" x-ng-repeat="b in board track by $index" x-ng-click ="clicker($index)"> {{ b }} 
+
+
+		</div>
+
+
+
+</div>
+
+</body>
+</html>

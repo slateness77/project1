@@ -1,0 +1,26 @@
+.cells {
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	border: 2px solid red;
+	float: left;
+	color: white;
+
+}
+
+.container {
+	width: 462;
+	margin: 0 auto;
+}
+
+.bgblue {
+	background-color: blue;
+}
+
+.xBackground {
+	background-color: green;
+}
+
+.yBackground {
+	background-color: yellow;
+}
