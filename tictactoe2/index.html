@@ -11,14 +11,17 @@
 <body x-ng-app="" x-ng-controller="TictactoeController">
 	<div class="container">
 		<div x-ng-class="{cells: true, bgblue: $even, cellx: xcell($index), cello: ocell($index)}" x-ng-repeat="b in board track by $index" x-ng-click ="clicker($index)"> {{ b }} 
+	</div>
 
-
-		</div>
-
+	<div id="result"></div>
 
 
 </div>
-<!-- <img src="img/yoshi.gif"> -->
+<div id="yoshi1"></div>
+
+<div id="yoshi2"></div>
+
+<div id="yoshititle"></div>
 
 </body>
 </html>

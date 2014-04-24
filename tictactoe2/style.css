@@ -30,7 +30,7 @@ body {
 	background-color: pink;
 }
 
-.xBackground {
+/*.xBackground {
 	background-color: green;
 }
 
@@ -38,13 +38,54 @@ body {
 	background-color: yellow;
 
 }
-
+*/
 .cellx {
 	background-image: url("img/X.jpeg");
+	background-size: 160px;
 }
 
 .cello {
 	background-image: url("img/O.png");
+	background-size: 160px;
+	background-position: -3px -8px;
+}
+
+#yoshi1 {
+	background-image: url("img/happyyoshi.gif");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 200px;
+	float: right;
+	background-size: 100px;
+	margin-left: 500px;
+	padding: 100px;
+
+}
+
+#yoshi2 {
+	background-image: url("img/fallingyoshi.gif");
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 250px;
+	background-size: 250px;
+	margin-top: -54px;
+	margin-left: 134px;
+	float: left;
+
+}
+
+#yoshititle {
+	background-image: url("img/yoshisnewisland.jpg");
+	width: 500px;
+	height: 100px;
+	margin: auto;
+
+}
+
+#result {
+	display: none;
+	color: white;
+	font-size: 40px;
 }
 
 
