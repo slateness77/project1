@@ -2,6 +2,7 @@ body {
 	background-image: url("img/yoshisisland.gif");
 	background-repeat: no-repeat;
 	background-size: 1500px 800px;
+
 }
 
 .cells {
@@ -10,15 +11,25 @@ body {
 	background-color: white;
 	border: 2px solid red;
 	float: left;
-	color: white;
+	color: transparent;
 	background-image: url("img/flower.gif");
 	background-repeat: no-repeat;
 	background-size: 140px;
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
+
+
+
 }
 
-.font {
-	color: blue;
+.cells:hover {
+	 -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  
 }
+
+
 
 
 .container {
@@ -107,15 +118,17 @@ body {
 display: none;
 color: pink;
 font-family: apple chancery;
-font-size: 80px;
+font-size: 40px;
 background-size: 149px 148;
 background-repeat: no-repeat;
-width: 500px;
-height: 500px;
+width: 150px;
+height: 150px;
 z-index: 999 !important;
 position: relative;
 margin-top: 211px;
 margin-left: 157;
+text-align: center;
+
 
 
 }
