@@ -2,10 +2,7 @@ body {
 	background-image: url("img/yoshisisland.gif");
 	background-repeat: no-repeat;
 	background-size: 1500px 800px;
-	
-
 }
-
 
 .cells {
 	width: 150px;
@@ -17,28 +14,22 @@ body {
 	background-image: url("img/flower.gif");
 	background-repeat: no-repeat;
 	background-size: 140px;
-
 }
+
+.font {
+	color: blue;
+}
+
 
 .container {
 	width: 462;
 	margin: 0 auto;
-	
 }
 
 .bgblue {
 	background-color: pink;
 }
 
-/*.xBackground {
-	background-color: green;
-}
-
-.yBackground {
-	background-color: yellow;
-
-}
-*/
 .cellx {
 	background-image: url("img/X.jpeg");
 	background-size: 160px;
@@ -54,12 +45,10 @@ body {
 	background-image: url("img/happyyoshi.gif");
 	background-repeat: no-repeat;
 	width: 100px;
-	height: 200px;
+	height: 0px;
 	float: right;
 	background-size: 100px;
-	margin-left: 500px;
 	padding: 100px;
-
 }
 
 #yoshi2 {
@@ -68,25 +57,70 @@ body {
 	width: 250px;
 	height: 250px;
 	background-size: 250px;
-	margin-top: -54px;
+	margin-top: -216px;
 	margin-left: 134px;
 	float: left;
-
 }
 
 #yoshititle {
 	background-image: url("img/yoshisnewisland.jpg");
-	width: 500px;
-	height: 100px;
-	margin: auto;
+	width: 462px;
+	height: 120px;
+	background-size: 462px;
+	background-repeat: no-repeat;
+	background-position: 0px -63px;
+	border-radius: 50px 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+
+#tic1 {
+	background-image: url("img/tictactoe.jpg");
+	width: 200px;
+	height: 200px;
+	margin-left: -432;
+	margin-top: -116;
+	background-repeat: no-repeat;
+	float: left;
+	border-radius: 100px;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+
+#tic2 {
+	background-image: url("img/tictactoe.jpg");
+	width: 200px;
+	height: 200px;
+	margin-left: 600px;
+	margin-top: -254px;
+	background-repeat: no-repeat;
+	border-radius: 100px;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+
 
 }
 
 #result {
-	display: none;
-	color: white;
-	font-size: 40px;
+	background-image: url("img/tumblr_ml2obj2KpG1s7wtffo1_500.gif");
+display: none;
+color: pink;
+font-family: apple chancery;
+font-size: 80px;
+background-size: 149px 148;
+background-repeat: no-repeat;
+width: 500px;
+height: 500px;
+z-index: 999 !important;
+position: relative;
+margin-top: 211px;
+margin-left: 157;
+
+
 }
+
+
 
 
 
