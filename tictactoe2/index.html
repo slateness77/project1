@@ -1,6 +1,8 @@
-<html>
+<html x-ng-app="yoshiApp">
 <head>
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+	<script src="https://cdn.firebase.com/v0/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="style.css"
 
@@ -11,7 +13,7 @@
 	</audio>
 </head>
 
-<body x-ng-app="" x-ng-controller="TictactoeController">
+<body x-ng-controller="TictactoeController">
 
 	<div class="container">
 		<div id="yoshititle"></div>
@@ -22,12 +24,17 @@
 
 
 		<div id="board">
-			<div x-ng-class="{cells: true, bgblue: $even, cellx: xcell($index), cello: ocell($index)}" x-ng-repeat="b in board track by $index" x-ng-click ="clicker($index)"> {{ b }} 
+			<div x-ng-class="{cells: true, bgblue: $even, cellx: xcell($index), cello: ocell($index)}" x-ng-repeat="b in game.board track by $index" x-ng-click ="clicker($index)"> {{ b }} 
 			</div>
 		</div>
 
 		<div id="result"></div>
+
+		<!-- <input type="button" value="Play again!" x-ng-click="reset()"/> -->
+		
 	</div>
+	<!-- <div id="score1">{{xscore}}</div>
+		<div id="score2">{{oscore}}</div> -->
 
 <div id="yoshi1"></div>
 

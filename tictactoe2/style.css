@@ -128,7 +128,13 @@ position: relative;
 margin-top: 211px;
 margin-left: 157;
 text-align: center;
+}
 
+#score1 {
+	height: 100px;
+	width: 100px;
+	color: black;
+	font-size: 30px;
 
 
 }
